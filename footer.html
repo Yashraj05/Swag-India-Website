@@ -1,0 +1,90 @@
+<footer>
+    <div class="foot">
+      <div class="footer-list">
+        <h6>POLICY INFO</h6>
+        <p>Privacy Policy</p>
+        <p>Terms of Sale</p>
+        <p>Terms of Use</p>
+        <p>Report Abuse & Takedown Policy</p>
+      </div>
+      <div class="footer-list">
+        <h6>COMPANY</h6>
+        <p>About Us</p>
+        <p>Core Values</p>
+        <p>Careers</p>
+        <p>Blog</p>
+        <p>Sitemap</p>
+      </div>
+      <div class="footer-list">
+        <h6>SNAPDEAL BUSINESS</h6>
+        <p>Shopping App</p>
+        <p>Sell on Snapdeal</p>
+        <p>Advertise on Snapdeal</p>
+        <p>Media Enquiries</p>
+        <p>Be on Affiliate</p>
+      </div>
+      <div class="footer-list">
+        <h6>NEED HELP?</h6>
+        <p>FAQ</p>
+        <p>Contact Us</p>
+        <p>Online Shopping</p>
+      </div>
+      <div class="footer-list">
+        <h6>SUBSCRIBE</h6>
+        <div>
+          <form class="subscribe" action="#">
+            <input type="text" placeholder="Your email address" />
+            <button>Subscribe</button>
+          </form>
+        </div>
+        <p>
+          Register now to get updates on promotions and <br />
+          coupons or <a href="#">Downlaod App</a>
+        </p>
+      </div>
+    </div>
+    <section class="copyright">
+      <h6>Copyright © All rights reserved</h6>
+      <div class="social-media">
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-behance" aria-hidden="true"></i>
+        <i class="fa fa-globe" aria-hidden="true"></i>
+        <a id="scrollUp">
+          <i class="fa fa-arrow-up"></i>
+        </a>
+      </div>
+    </section>
+  </footer>
+  <script>
+    
+function scroll()
+{
+    var arrow = document.getElementById("scrollUp");
+    console.log(arrow);
+    arrow.addEventListener('click',()=>
+    {
+       
+        window.scrollTo(0,0);
+
+    })
+
+}
+
+scroll();
+
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("header-sticky")
+
+function myFunction()
+{
+    if(window.pageYOffset>navbar.offsetTop)
+    {
+            navbar.classList.add("sticky");
+    }
+    else{
+        navbar.classList.remove("sticky");
+    }
+}
+  </script>

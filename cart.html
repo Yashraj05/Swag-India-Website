@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Swag of India</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header id="main-header"></header>
+    <main class="cart-page">
+      <div class="left-cart" >
+        <div class="cart-total">
+            <div>
+              <span style="color: orange; font-weight: bold; font-size: larger"
+                >MY CARTS&nbsp;&nbsp;</span
+              >
+              <span id="total-cart-items" style="font-weight: bold; font-size: smaller"
+                >&nbsp;( '$'items)</span
+              >
+            </div>
+            <div class="total-cart-price">
+              <p id="total-cart-price" style="font-weight: bold; font-size: large">Total : '$' </p>
+            </div>
+        </div>
+        <div id="cart-item">
+
+        </div>
+      </div>
+      <div class="right-cart">
+        <div>
+            <p style="font-weight: bold; font-size: large;margin-bottom: 5px;">COUPONS</p>
+            <div class="coupan">
+                <i class="fa-solid fa-tag"></i>
+                <p style="font-weight: bold;">Apply Coupans</p> 
+                <button>Apply</button>
+            </div>
+            <hr>
+            <p style="font-weight: bold;">PRICE DETAILS</p>
+            <div class="price-details">
+                <div class="price-details-left">
+                    <p>Price Details</p>
+                    <p>Bag Discount</p>
+                    <p>Coupan Discount</p>
+                    <p>Order Total</p>
+                    <p>Delivery Charges</p>
+                </div>
+                <div class="price-details-right">
+                    <p id="total-actual-price">'$'10286</p>
+                    <p id="bag-discount" style="color: green;">'$'102086</p>
+                    <p style="color: orangered;"><a>Apply Coupan</a></p>
+                    <p class="final-price">'$'102086</p>
+                    <p><del>Rs 99 </del><span style="color: green;">Free</span></p>
+                </div>
+            </div>
+           
+
+                
+            <hr>
+            <div class="price-details-div">
+                <p style="font-weight: bold;padding-right: 120px;">Total</p>
+                <p class="final-price-total" style="font-weight: bold;">'$'5346</p>
+            </div>
+            <button onclick="placeOrder()" class="place-order">PLACE ORDER</button>
+            
+            
+
+        </div>
+      </div>
+      
+
+        
+    </main>
+
+    <footer id="main-footer"></footer>
+    <script
+      src="https://kit.fontawesome.com/6b88bd658a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="js/header-footer.js"></script>
+    <script type="text/javascript" src="js/cart.js"></script>
+
+  </body>
+</html>

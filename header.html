@@ -1,0 +1,169 @@
+<header>
+    <nav id="top-navigation">
+      <div class="flex-container">
+        <div class="social-media-icons">
+          <div><i class="fa fa-facebook" aria-hidden="true"></i></div>
+          <div><i class="fa fa-youtube" aria-hidden="true"></i></div>
+          <div><i class="fa fa-twitter" aria-hidden="true"></i></div>
+        </div>
+        <div class="search-wrapper">
+          <input
+            type="text"
+            id="search"
+            placeholder="Search Products & Brands"
+          />
+          <i class="fa fa-search call" aria-hidden="true"></i>
+        </div>
+        <div class="telephone-wrapper">
+          <div class="round-icons-div">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+          </div>
+          <a id="country_code">+91 9008008085</a>
+        </div>
+        <div class="sell-Downlaod">
+          <a href="">Sell On Company</a>
+        </div>
+        <div class="sell-Downlaod">
+          <a href="">Download App</a>
+        </div>
+
+        <div class="country-wrapper">
+          <div class="image" >
+            <img id="flag" src="images/india.png" alt="Country" ; />
+
+          </div>
+          <div class="country_name">
+            <select id="country-name">
+              <option value="india">India</option>
+              <option value="english">English</option>
+              <option value="french">French</option>
+             
+            </select>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <nav class="main-navigation" id="header-sticky">
+      <div class="container-1">
+        <a href="./index.html"><img src="images/logo.png" alt="logo" /></a>
+        <nav>
+          <ul class="header-ul">
+            <li><a href="">Home</a></li>
+            <li><a href="">Categories</a></li>
+            <li><a href="">Latest</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Pages</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="flex-container-main">
+        
+        <a href="./wishlist.html" style="color: black; margin-top: 2px;"><i class="fa fa-heart-o"></i></a>
+        
+       
+        <a href="/cart.html" style="color: black;">
+            <i class="fa fa-shopping-cart"></i>
+        </a> 
+        <button type="button" class="Sign" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign In</button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog ">
+            <div class="modal-content">
+              <div class="modal-header modal_header">
+                <img src="images/logo.png" alt="" style="margin: auto; height: 80px;">
+              </div>
+              <div class="modal-body signin_modal">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item login_name" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#login" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">LOGIN</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#signup" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">CREATE ACCOUNT</button>
+                  </li>
+                </ul>
+      
+                
+      
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                    
+                    <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email<span style="color: red;">&#42</span></label>
+                        <input type="email" class="form-control email_class" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password<span style="color: red;">&#42</span></label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>
+                    </form> 
+                    <button class="login mb-3 w-100" type="button">SIGN IN</button>
+                    <button class="forget mb-3 w-100" type="button">FORGOR YOUR PASSWORD?</button>
+      
+                  </div>
+                  <div class="tab-pane fade" id="signup" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleUsername" class="form-label">Username<span style="color: red;">&#42</span></label>
+                      <input type="text" class="form-control " id="exampleUsername" >
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email<span style="color: red;">&#42</span></label>
+                      <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password<span style="color: red;">&#42</span></label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                  </form> 
+                  <button class="create_account mb-3 w-100" type="button">CREATE ACCOUNT</button>
+                  </div>
+              
+                </div>
+                  
+              </div>
+              <div class="modal-footer footer">
+                  <h6>Or Login With</h6><br>
+                  <div class="login_buttons" >
+                    <!-- <div> -->
+                      
+                      <button class="facebook" type="button">FACEBOOK</button>
+                      <i class="fa fa-facebook " aria-hidden="true"></i>
+                      <button class="twitter" type="button">TWITTER</button>
+                      <i class="fa fa-twitter twitter_icon" aria-hidden="true"></i>
+                      <button class="google" type="button">GOOGLE</button>
+                      <i class="fa fa-google google_icon" aria-hidden="true"></i>
+                    <!-- </div> -->
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+<script>
+  function updateCountry(){
+ 
+ let contacts = new Map()
+ contacts.set('india','+91 8888888888')
+ contacts.set('english','+44 8888888888')
+ contacts.set('french','+33 8888888888')
+ var country = document.getElementById('country-name');
+
+ country.addEventListener('change',()=>{
+     var name_country = country.value;
+   
+     document.getElementById("country_code").innerHTML=(contacts.get(name_country)); 
+     document.getElementById("flag").src=`../images/${name_country}.png`;
+ })
+
+
+
+}
+updateCountry();
+</script>
+
+  

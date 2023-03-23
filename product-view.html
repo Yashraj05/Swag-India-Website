@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Swag of India</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header id="main-header"></header>
+    <main>
+      <nav class="breadcrumb-nav" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Library</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+      </nav>
+       <!-- Modal -->
+          <div
+            class="modal fade"
+            id="image-gallery"
+            tabindex="-1"
+            aria-labelledby="image-gallery"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <img src="images/product3.png" alt="">
+              </div>
+            </div>
+          </div>
+      <div class="product-main-div">
+          <!-- Button trigger modal -->
+          <div class="modal-images">
+            <div>
+                <img src="images/product3.png" 
+              data-bs-toggle="modal"
+              data-bs-target="#image-gallery"alt="" width="50px" height="60px">
+              </div>
+              <div>
+                <img src="images/product3.png" 
+              data-bs-toggle="modal"
+              data-bs-target="#image-gallery"alt="" width="50px" height="60px">
+              </div>
+              <div>
+                <img src="images/product3.png" 
+              data-bs-toggle="modal"
+              data-bs-target="#image-gallery"alt="" width="50px" height="60px">
+              </div>
+              <div>
+                <img src="images/product3.png" 
+              data-bs-toggle="modal"
+              data-bs-target="#image-gallery"alt="" width="50px" height="60px">
+              </div>
+          </div>
+          <div class="product-image">
+            <img src="images/product3.png" alt="" style="border: 1px solid rgb(209, 202, 202);">
+          </div>  
+          <div class="description">
+          <h6 style="font-weight: bolder">Classic Chinos Pants</h6>
+          <div class="stars">
+            <i class="gold fa fa-star checked"></i>
+            <i class="gold fa fa-star checked"></i>
+            <i class="gold fa fa-star checked"></i>
+            <i class="gold fa fa-star-o"></i>
+            <i class="gold fa fa-star-o"></i>
+            <span
+              style="
+                color: darkgreen;
+                font-weight: bold;
+                font-size: small;
+                margin-bottom: 25px;
+              "
+              >&nbsp;&nbsp;39,122 ratings &nbsp; |&nbsp; 1000+ answered
+              questions</span
+            >
+          </div>
+          <p style="margin-top: 10px">
+            <span style="font-weight: bold">Rs 1090.0</span> <del>Rs 2748.0</del
+            ><span style="color: orangered; font-weight: bold"
+              >&nbsp;(60% Off)</span
+            >
+          </p>
+          <div>
+            <p style="font-weight: bold; font-size: 14px">Short Description</p>
+            <p style="margin-top: -15px; font-size: 12px">
+              Black and grey checked casual shirt,has a spread collor,long
+              roll-up sleeves,button placket,<br />
+              curved hem, and 1 patch pocket. Black and grey checked casual
+              shirt,has a spread collor,<br />
+              long roll-up sleeves,button placket,curved hem, and 1 patch
+              pocket.
+            </p>
+
+            <p></p>
+          </div>
+
+          <div class="size_qty">
+            <div class="size">
+              <p>SELECT SIZE</p>
+              <button>39</button>
+              <button>40</button>
+              <button>42</button>
+              <button>44</button>
+            </div>
+            <div class="quant">
+              <p>QTY</p>
+              <form id="myform" method="POST" class="quantity" action="#">
+                <input
+                  type="button"
+                  value="-"
+                  class="qtyminus minus"
+                  field="quantity"
+                />
+                <input type="text" name="quantity" value="0" class="qty" />
+                <input
+                  type="button"
+                  value="+"
+                  class="qtyplus plus"
+                  field="quantity"
+                />
+              </form>
+              <!-- https://codepen.io/Mindgames/pen/zoWavw -->
+            </div>
+          </div>
+          <div class="buy">
+            <button>ADD TO CART</button>
+            <button>BUY NOW</button>
+            <i class="fa fa-heart-o"></i>
+          </div>
+          <div class="share">
+            <span style="font-size: 13px; font-weight: bold; margin-right: 15px"
+              >SHARE THIS</span
+            >
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-youtube" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </div>
+          <div class="del-srt">
+            <i class="fa-solid fa-truck-fast"></i>
+            <span style="font-size: 13px; font-weight: bold; margin-right: 15px"
+              >DELIVERY & RETURN
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span
+            >
+            <i class="fa-solid fa-headset"></i>
+            <span style="font-size: 13px; font-weight: bold; margin-right: 15px"
+              >ONLINE SUPPORT 24/7
+            </span>
+          </div>
+          </div>
+      </div>
+
+      <div class="buttom_nav">
+        <nav class="buttom-nav-bar">
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button
+              class="nav-link active"
+              id="nav-description-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-description"
+              type="button"
+              role="tab"
+              aria-controls="nav-description"
+              aria-selected="true"
+            >
+              Description
+            </button>
+            <button
+              class="nav-link"
+              id="nav-sizing-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-sizing"
+              type="button"
+              role="tab"
+              aria-controls="nav-sizing"
+              aria-selected="false"
+            >
+              Sizing Guide
+            </button>
+            <button
+              class="nav-link"
+              id="nav-assigned-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-assigned"
+              type="button"
+              role="tab"
+              aria-controls="nav-assigned"
+              aria-selected="false"
+            >
+              Assigned Tags
+            </button>
+            <button
+              class="nav-link"
+              id="nav-custom-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-custom"
+              type="button"
+              role="tab"
+              aria-controls="nav-custom"
+              aria-selected="false"
+            >
+              Many Custom Tabs
+            </button>
+          </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div
+            class="tab-pane fade show active nav-bar-des"
+            id="nav-description"
+            role="tabpanel"
+            aria-labelledby="nav-description-tab"
+            tabindex="0"
+          >
+            <h6>Give you a complete account of the System</h6>
+            <p>
+              Dr trust USA professional series pulse rate and alarm,function
+              USFDA and CE approved. The newly upgraded Dr Trust Finger Pulse
+              Oximeter is an affordable and accurate way
+              <br />to check pulse rates and blood oxygen saturation
+              levels.Simple one button design allows for easy operation.Small
+              portable size makes it easy to handle and carry. Helpful for
+              <br />athletes and pilotes to obtain quick and accurate oxygen
+              saturation readings. This is the best pulse oximeter available for
+              medical professionals. The product is water resistent <br />and
+              contains audio visual alarm.<br />
+            </p>
+            <p>
+              USFDA and CE approved Dr Trust is a registered trademark of Nectar
+              Biopharma Private Limited. We will actively and aggressively
+              pursue any parties who infringe on our
+              <br />
+              intellectual property rights to a maximum extent allowed by the
+              law. All products designs, packaging designs, prodcuts images and
+              text on image are protectected by various<br />
+              Indian and international patents and copyrights.Dr trust USA
+              professional series pulse rate and alarm,function USFDA and CE
+              approved. The newly upgraded Dr Trust Finger
+              <br />
+              Pulse Oximeter is an affordable and accurate way to check pulse
+              rates and blood oxygen saturation levels.Simple one button design
+              allows for easy operation.Small portable <br />
+              size makes it easy to handle and carry. Helpful for athletes and
+              pilotes to obtain quick and accurate oxygen saturation readings.
+              This is the best pulse oximeter available for<br />
+              professionals. The product is water resistent and contains audio
+              visual alarm.
+            </p>
+            <p>
+              USFDA and CE approved Dr Trust is a registered trademark of Nectar
+              Biopharma Private Limited. We will actively and aggressively
+              pursue any parties who infringe on our
+              <br />
+              intellectual property rights to a maximum extent allowed by the
+              law. All products designs, packaging designs, prodcuts images and
+              text on image are protectected by various<br />
+              Indian and international patents and copyrights.
+            </p>
+            <p>
+              USFDA and CE approved Dr Trust is a registered trademark of Nectar
+              Biopharma Private Limited. We will actively and aggressively
+              pursue any parties who infringe on our
+              <br />
+              intellectual property rights to a maximum extent allowed by the
+              law. All products designs, packaging designs, prodcuts images and
+              text on image are protectected by various<br />
+              Indian and international patents and copyrights.Dr trust USA
+              professional series pulse rate and alarm,function USFDA and CE
+              approved. The newly upgraded Dr Trust Finger
+              <br />
+              Pulse Oximeter is an affordable and accurate way to check pulse
+              rates and blood oxygen saturation levels.Simple one button design
+              allows for easy operation.Small portable <br />
+              size makes it easy to handle and carry. Helpful for athletes and
+              pilotes to obtain quick and accurate oxygen saturation readings.
+              This is the best pulse oximeter available for<br />
+              professionals. The product is water resistent and contains audio
+              visual alarm.
+            </p>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="nav-sizing"
+            role="tabpanel"
+            aria-labelledby="nav-sizing-tab"
+            tabindex="0"
+          ></div>
+          <div
+            class="tab-pane fade"
+            id="nav-assigned"
+            role="tabpanel"
+            aria-labelledby="nav-assigned-tab"
+            tabindex="0"
+          >
+            ...
+          </div>
+          <div
+            class="tab-pane fade"
+            id="nav-custom"
+            role="tabpanel"
+            aria-labelledby="nav-custom-tab"
+            tabindex="0"
+          >
+            ...
+          </div>
+        </div>
+
+        <hr />
+        <br />
+        <hr />
+      </div>
+      <div class="related-products">
+        <h4>RELATED PRODUCTS</h4>
+        <div class="card-deck">
+          <!-- =======Products 1======-->
+          <div class="subject">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/product1.png"
+                alt="Card image cap"
+              />
+              <div class="functions">
+                <div class="cartx">
+                  <div class="icons">
+                    <img class="wishlist" src="./images/wishlist.png" alt="" />
+                    <img class="view" src="./images/view.png" alt="" />
+                    <img class="cart" src="./images/cart.png" alt="" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-body-1">
+                <div class="ratings">
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <h3>Green Dress with details</h3>
+                <h4><span>$40.00</span><del>$60.00</del></h4>
+              </div>
+            </div>
+
+            <!-- <div class="new-icons">
+                    <div class="cart-new"></div>
+                    <div class="wishlist-new"></div>
+                    <div class="view-new"></div>
+                  </div> -->
+          </div>
+
+          <div class="subject">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/product2.png"
+                alt="Card image cap"
+              />
+              <div class="functions">
+                <div class="cartx">
+                  <div class="icons">
+                    <img class="wishlist" src="./images/wishlist.png" alt="" />
+                    <img class="view" src="./images/view.png" alt="" />
+                    <img class="cart" src="./images/cart.png" alt="" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-body-1">
+                <div class="ratings">
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <h3>Green Dress with details</h3>
+                <h4><span>$40.00</span><del>$60.00</del></h4>
+              </div>
+            </div>
+
+            <!-- <div class="new-icons">
+                    <div class="cart-new"></div>
+                    <div class="wishlist-new"></div>
+                    <div class="view-new"></div>
+                  </div> -->
+          </div>
+
+          <div class="subject">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/product3.png"
+                alt="Card image cap"
+              />
+              <div class="functions">
+                <div class="cartx">
+                  <div class="icons">
+                    <img class="wishlist" src="./images/wishlist.png" alt="" />
+                    <img class="view" src="./images/view.png" alt="" />
+                    <img class="cart" src="./images/cart.png" alt="" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-body-1">
+                <div class="ratings">
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <h3>Green Dress with details</h3>
+                <h4><span>$40.00</span><del>$60.00</del></h4>
+              </div>
+            </div>
+
+            <!-- <div class="new-icons">
+                    <div class="cart-new"></div>
+                    <div class="wishlist-new"></div>
+                    <div class="view-new"></div>
+                  </div> -->
+          </div>
+
+          <div class="subject">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/product4.png"
+                alt="Card image cap"
+              />
+              <div class="functions">
+                <div class="cartx">
+                  <div class="icons">
+                    <img class="wishlist" src="./images/wishlist.png" alt="" />
+                    <img class="view" src="./images/view.png" alt="" />
+                    <img class="cart" src="./images/cart.png" alt="" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-body-1">
+                <div class="ratings">
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <h3>Green Dress with details</h3>
+                <h4><span>$40.00</span><del>$60.00</del></h4>
+              </div>
+            </div>
+
+            <!-- <div class="new-icons">
+                    <div class="cart-new"></div>
+                    <div class="wishlist-new"></div>
+                    <div class="view-new"></div>
+                  </div> -->
+          </div>
+
+          <div class="subject">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/product5.png"
+                alt="Card image cap"
+              />
+              <div class="functions">
+                <div class="cartx">
+                  <div class="icons">
+                    <img class="wishlist" src="./images/wishlist.png" alt="" />
+                    <img class="view" src="./images/view.png" alt="" />
+                    <img class="cart" src="./images/cart.png" alt="" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-body-1">
+                <div class="ratings">
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <h3>Green Dress with details</h3>
+                <h4><span>$40.00</span><del>$60.00</del></h4>
+              </div>
+            </div>
+
+            <!-- <div class="new-icons">
+                    <div class="cart-new"></div>
+                    <div class="wishlist-new"></div>
+                    <div class="view-new"></div>
+                  </div> -->
+          </div>
+
+          <div class="subject">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/product6.png"
+                alt="Card image cap"
+              />
+              <div class="functions">
+                <div class="cartx">
+                  <div class="icons">
+                    <img class="wishlist" src="./images/wishlist.png" alt="" />
+                    <img class="view" src="./images/view.png" alt="" />
+                    <img class="cart" src="./images/cart.png" alt="" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-body-1">
+                <div class="ratings">
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <h3>Green Dress with details</h3>
+                <h4><span>$40.00</span><del>$60.00</del></h4>
+              </div>
+            </div>
+
+            <!-- <div class="new-icons">
+                    <div class="cart-new"></div>
+                    <div class="wishlist-new"></div>
+                    <div class="view-new"></div>
+                  </div> -->
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer id="main-footer"></footer>
+    <script
+      src="https://kit.fontawesome.com/6b88bd658a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="./js/example.js"></script>
+    <script type="text/javascript" src="js/header-footer.js"></script>
+  </body>
+</html>
